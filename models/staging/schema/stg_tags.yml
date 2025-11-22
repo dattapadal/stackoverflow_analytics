@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_tags
+
+    columns:
+      - name: tag_id
+        tests:
+          - unique
+          - not_null
+
+      - name: tag_name
+        tests:
+          - not_null
+          - unique
+
+      - name: count
+
+      - name: excerpt_post_id
+
+      - name: wiki_post_id

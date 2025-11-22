@@ -1,0 +1,14 @@
+version: 2
+sources:
+  - name: stackoverflow
+    meta:
+      external_location: 's3://us-prd-motherduck-open-datasets/stackoverflow/parquet/2023-05/{name}.parquet'
+    tables:
+      - name: comments
+      - name: posts
+      - name: votes
+      - name: users
+      - name: badges
+      - name: post_links
+      - name: tags
+        

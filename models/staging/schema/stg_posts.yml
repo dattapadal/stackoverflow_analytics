@@ -1,0 +1,51 @@
+version: 2
+
+models:
+  - name: stg_posts
+    columns:
+      - name: post_id
+        tests:
+          - unique
+          - not_null
+
+      - name: post_type_id
+        tests:
+          - not_null
+
+      - name: accepted_answer_id
+
+      - name: parent_id
+      
+      - name: owner_user_id
+
+      - name: last_editor_user_id
+
+      - name: score
+
+      - name: view_count
+
+      - name: body
+
+      - name: last_editor_display_name
+
+      - name: title
+
+      - name: tags
+
+      - name: content_license
+      
+      - name: answer_count
+
+      - name: comment_count
+      
+      - name: favorite_count
+
+      - name: creation_date
+        tests:
+          - not_null
+
+      - name: last_edit_date
+
+      - name: last_activity_date
+
+      - name: community_owned_date

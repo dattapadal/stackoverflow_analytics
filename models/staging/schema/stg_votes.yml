@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: stg_votes
+
+    columns:
+      - name: vote_id
+        tests:
+          - unique
+          - not_null
+
+      - name: post_id
+        tests:
+          - not_null
+
+      - name: vote_type_id
+        tests:
+          - not_null
+
+      - name: creation_date
+        tests:
+          - not_null

@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: stg_users
+
+    columns:
+      - name: user_id
+        tests:
+          - unique
+          - not_null
+
+      - name: reputation
+
+      - name: display_name
+
+      - name: about_me
+      
+      - name: views
+
+      - name: up_votes
+
+      - name: down_votes
+
+      - name: creation_date
+        tests:
+          - not_null
+
+      - name: last_access_date
+
+
+

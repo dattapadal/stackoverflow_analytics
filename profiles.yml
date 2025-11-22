@@ -1,0 +1,13 @@
+stackoverflow_analytics:
+  outputs:
+    dev:
+      type: duckdb
+      path: ../data/dev.duckdb
+      threads: 7
+
+    prod:
+      type: duckdb
+      path: ../data/prod.duckdb
+      threads: 4
+
+  target: dev

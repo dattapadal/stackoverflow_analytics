@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: stg_comments
+    
+    columns:
+      - name: comment_id
+        tests:
+          - unique
+          - not_null
+
+      - name: post_id
+        tests:
+          - not_null
+
+      - name: score
+
+      - name: comment_text
+
+      - name: user_id
+        tests:
+          - not_null
+      
+      - name: content_license
+
+      - name: creation_date
+        tests:
+          - not_null
+
+

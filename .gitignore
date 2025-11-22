@@ -1,0 +1,47 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python environments / packaging
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Python tooling caches
+.htmlcov/
+.coverage
+.coverage.*
+.tox/
+.pytest_cache/
+.mypy_cache/
+.python-version
+
+# Credentials / env
+.env
+.env.* 
+secrets.yml
+credentials.json
+*.pem
+*.key
+*.crt
+
+# dbt
+target/
+dbt_packages/
+logs/
+.dbt/
+.user.yml
+package-lock.yml
+uv.lock
+
